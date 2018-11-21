@@ -1,0 +1,805 @@
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+header {
+	width: 100%;
+	height: 20%;
+}
+
+p {
+	margin: 0 !important;
+}
+
+.cabecalio-mobile {
+	width: 100%;
+	height: 80%;
+	background-color: white;
+    display: flex; /* flex box */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+	width: 90px;
+    padding: 20px;
+}
+
+.navegacao{
+	width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navegacao img{
+	width: 24px;
+}
+
+.menu-barra{
+    width: 26px;
+    height: 4px;
+    background-color: black;
+    margin-bottom: 4px;
+    border-radius: 4px;
+}
+
+.submenu{
+	width: 100%;
+    height: 20%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.submenu a{
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	padding-left: 20px;
+}
+
+.carousel-inner{
+	width: 100%;
+	height: 80%;
+}
+
+.carousel-caption {
+	background-color: black;
+    position: absolute;
+    right: 50% !important;
+    bottom: 20px;
+    left: 6% !important;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-texto-one {
+}
+
+.texto-carousel-one{
+	margin: 0;
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+}
+
+.titulo-exposicao{
+	text-transform: uppercase;
+	color: red;
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+    margin-left: 20px;
+}
+
+.colecao{
+    width: 90%;
+    height: 120px;
+    background: url("../imagens/1.png");
+    background-position: top center;
+    background-repeat: none;
+    background-size: cover;
+    margin: 20px auto 0 auto;
+}
+
+.colecao h4{
+	text-transform: uppercase;
+	color: #141720;
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	padding: 16px 0 0 16px;
+}
+
+.colecao p{
+	color: #141720;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 15px;
+	padding-left: 16px;
+	padding-right: 10px;
+}
+
+.tomoo{
+	width: 90%;
+    height: 132px;
+    background: url("../imagens/2.png");
+    background-position: top center;
+    background-repeat: none;
+    background-size: cover;
+    margin: 20px auto 0 auto;
+}
+
+.tomoo h4{
+	text-transform: uppercase;
+	color: #141720;
+	font-family: arial, Sans-Serif;
+	font-weight: bold;
+	padding: 16px 0 0 16px;
+}
+
+.tomoo p{
+	color: #141720;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 11px;
+	padding-left: 16px;
+	padding-right: 14px;
+}
+
+.ryo{
+	width: 90%;
+    height: 132px;
+    background: url("../imagens/3.png");
+    background-position: top center;
+    background-repeat: none;
+    background-size: cover;
+    margin: 20px auto 0 auto;
+}
+
+.ryo h4{
+	text-transform: uppercase;
+	color: #141720;
+	font-family: arial, Sans-Serif;
+	font-weight: bold;
+	padding: 16px 0 0 16px;
+}
+
+.ryo p{
+	color: #141720;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 11px;
+	padding-left: 16px;
+	padding-right: 14px;
+}
+
+.quimonos{
+	width: 90%;
+    height: 132px;
+    background: url("../imagens/8.png");
+    background-position: top center;
+    background-repeat: none;
+    background-size: cover;
+    margin: 20px auto 0 auto;
+}
+
+.quimonos h4{
+	text-transform: uppercase;
+	color: #141720;
+	font-family: arial, Sans-Serif;
+	font-weight: bold;
+	padding: 16px 0 0 16px;
+}
+
+.quimonos p{
+	color: #141720;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 11px;
+	padding-left: 16px;
+	padding-right: 14px;
+}
+
+.fundo-acervo{
+	background-color: #141720;
+}
+
+.respiro{
+	height: 50px;
+    display: flex;
+}
+
+.titulo-acervo{
+	text-transform: uppercase;
+	color: white;
+	font-family: arial, Sans-Serif;
+	font-weight: bold;
+    margin-left: 20px;
+}
+
+.pinturas{
+    width: 90%;
+    height: 120px;
+    background: url("../imagens/4.png");
+    background-position: top center;
+    background-repeat: none;
+    background-size: cover;
+    margin: 20px auto 0 auto;
+}
+
+.pinturas h4{
+	text-transform: uppercase;
+	color: white;
+	font-family: arial, Sans-Serif;
+	font-weight: bold;
+	padding: 8px 0 0 8px;
+}
+
+.livros{
+    width: 90%;
+    height: 120px;
+    background: url("../imagens/5.png");
+    background-position: top center;
+    background-repeat: none;
+    background-size: cover;
+    margin: 20px auto 0 auto;
+}
+
+.livros h4{
+	text-transform: uppercase;
+	color: white;
+	font-family: arial, Sans-Serif;
+	font-weight: bold;
+	padding: 8px 0 0 8px;
+}
+
+.objetos{
+    width: 90%;
+    height: 120px;
+    background: url("../imagens/6.png");
+    background-position: top center;
+    background-repeat: none;
+    background-size: cover;
+    margin: 20px auto 0 auto;
+}
+
+.objetos h4{
+	text-transform: uppercase;
+	color: white;
+	font-family: arial, Sans-Serif;
+	font-weight: bold;
+	padding: 8px 0 0 8px;
+}
+
+.imigracao{
+    width: 90%;
+    height: 120px;
+    background: url("../imagens/7.png");
+    background-position: top center;
+    background-repeat: none;
+    background-size: cover;
+    margin: 20px auto 0 auto;
+}
+
+.imigracao h4{
+	text-transform: uppercase;
+	color: white;
+	font-family: arial, Sans-Serif;
+	font-weight: bold;
+	padding: 8px 0 0 8px;
+}
+
+.titulo-novidades{
+	text-transform: uppercase;
+	color: red;
+	font-family: arial, Sans-Serif;
+	font-weight: bold;
+    margin-left: 20px;
+}
+
+.visita{
+    width: 90%;
+    height: 120px;
+    background: url("../imagens/1.png");
+    background-position: top center;
+    background-repeat: none;
+    background-size: cover;
+    margin: 20px auto 0 auto;
+}
+
+.visita h4{
+	text-transform: uppercase;
+	color: #141720;
+	font-family: arial, Sans-Serif;
+	font-weight: bold;
+	padding: 16px 0 0 16px;
+}
+
+.visita p{
+	color: #141720;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 11px;
+	padding-left: 16px;
+	padding-right: 10px;
+}
+
+.anos{
+	width: 90%;
+    height: 132px;
+    background: url("../imagens/2.png");
+    background-position: top center;
+    background-repeat: none;
+    background-size: cover;
+    margin: 20px auto 0 auto;
+}
+
+.anos h4{
+	text-transform: uppercase;
+	color: #141720;
+	font-family: arial, Sans-Serif;
+	font-weight: bold;
+	padding: 16px 0 0 16px;
+}
+
+.anos p{
+	color: #141720;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 11px;
+	padding-left: 16px;
+	padding-right: 14px;
+}
+
+.inauguracao{
+	width: 90%;
+    height: 132px;
+    background: url("../imagens/3.png");
+    background-position: top center;
+    background-repeat: none;
+    background-size: cover;
+    margin: 20px auto 0 auto;
+}
+
+.inauguracao h4{
+	text-transform: uppercase;
+	color: #141720;
+	font-family: arial, Sans-Serif;
+	font-weight: bold;
+	padding: 16px 0 0 16px;
+}
+
+.inauguracao p{
+	color: #141720;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 11px;
+	padding-left: 16px;
+	padding-right: 14px;
+}
+
+.livro{
+	width: 90%;
+    height: 132px;
+    background: url("../imagens/8.png");
+    background-position: top center;
+    background-repeat: none;
+    background-size: cover;
+    margin: 20px auto 0 auto;
+}
+
+.livro h4{
+	text-transform: uppercase;
+	color: #141720;
+	font-family: arial, Sans-Serif;
+	font-weight: bold;
+	padding: 16px 0 0 16px;
+}
+
+.livro p{
+	color: #141720;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 11px;
+	padding-left: 16px;
+	padding-right: 14px;
+}
+
+.fundo-historia {
+	background-color: #141720;
+}
+
+.titulo-historia{
+	text-transform: uppercase;
+	color: white;
+	font-family: arial, Sans-Serif;
+	font-weight: bold;
+    margin-left: 20px;
+}
+
+.historia{
+    width: 90%;
+    height: 120px;
+    background: url("../imagens/9.png");
+    background-position: top center;
+    background-repeat: none;
+    background-size: cover;
+    margin: 20px auto 0 auto;
+}
+
+.historia h4{
+	text-transform: uppercase;
+	color: white;
+	font-family: arial, Sans-Serif;
+	font-weight: bold;
+	padding: 8px 0 0 8px;
+}
+
+.museu{
+    width: 90%;
+    height: 120px;
+    background: url("../imagens/10.png");
+    background-position: top center;
+    background-repeat: none;
+    background-size: cover;
+    margin: 20px auto 0 auto;
+}
+
+.museu h4{
+	text-transform: uppercase;
+	color: white;
+	font-family: arial, Sans-Serif;
+	font-weight: bold;
+	padding: 8px 0 0 8px;
+}
+
+/*.objetos{
+    width: 90%;
+    height: 120px;
+    background: url("../imagens/6.png");
+    background-position: top center;
+    background-repeat: none;
+    background-size: cover;
+    margin: 20px auto 0 auto;
+}
+
+.objetos h4{
+	text-transform: uppercase;
+	color: white;
+	font-family: arial, Sans-Serif;
+	font-weight: bold;
+	padding: 8px 0 0 8px;
+}
+
+.imigracao{
+    width: 90%;
+    height: 120px;
+    background: url("../imagens/7.png");
+    background-position: top center;
+    background-repeat: none;
+    background-size: cover;
+    margin: 20px auto 0 auto;
+}
+
+.imigracao h4{
+	text-transform: uppercase;
+	color: white;
+	font-family: arial, Sans-Serif;
+	font-weight: bold;
+	padding: 8px 0 0 8px;
+}*/
+
+.titulo-visite-nos{
+	text-transform: uppercase;
+	color: red;
+	font-family: arial, Sans-Serif;
+	font-weight: bold;
+    margin-left: 20px;
+}
+
+.horario{
+    width: 90%;
+    height: 100px;
+    background-color: #8a2c2c;
+    box-shadow: 3px 6px 8px -1px #9e9b9a;
+    background-size: cover;
+    margin: 20px auto 0 auto;
+}
+
+.horario h4{
+	text-transform: uppercase;
+	color: #141720;
+	font-family: arial, Sans-Serif;
+	font-weight: bold;
+	padding: 16px 0 0 16px;
+}
+
+.horario p{
+	color: #141720;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 11px;
+	padding-left: 16px;
+	padding-right: 10px;
+	margin: 0;
+}
+
+.ingressos{
+	width: 90%;
+    height: 100px;
+    background-color: #8a2c2c;
+    box-shadow: 3px 6px 8px -1px #9e9b9a;
+    background-size: cover;
+    margin: 20px auto 0 auto;
+}
+
+.ingressos h4{
+	text-transform: uppercase;
+	color: #141720;
+	font-family: arial, Sans-Serif;
+	font-weight: bold;
+	padding: 16px 0 0 16px;
+}
+
+.ingressos p{
+	color: #141720;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 11px;
+	padding-left: 16px;
+	padding-right: 14px;
+}
+
+.audioguia{
+	width: 90%;
+    height: 150px;
+    background-color: #8a2c2c;
+    box-shadow: 3px 6px 8px -1px #9e9b9a;
+    background-size: cover;
+    margin: 20px auto 0 auto;
+}
+
+.audioguia h4{
+	text-transform: uppercase;
+	color: #141720;
+	font-family: arial, Sans-Serif;
+	font-weight: bold;
+	padding: 16px 0 0 16px;
+}
+
+.audioguia p{
+	color: #141720;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 11px;
+	padding-left: 16px;
+	padding-right: 14px;
+}
+
+.Agendamento-de-visitas{
+	width: 90%;
+    height: 106px;
+    background-color: #8a2c2c;
+    box-shadow: 3px 6px 8px -1px #9e9b9a;
+    background-size: cover;
+    margin: 20px auto 0 auto;
+}
+
+.Agendamento-de-visitas h4{
+	text-transform: uppercase;
+	color: #141720;
+	font-family: arial, Sans-Serif;
+	font-weight: bold;
+	padding: 16px 0 0 16px;
+}
+
+.Agendamento-de-visitas p{
+	color: #141720;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 11px;
+	padding-left: 16px;
+	padding-right: 14px;
+}
+
+.Agendamento-de-excursão{
+	width: 90%;
+    height: 106px;
+    background-color: #8a2c2c;
+    box-shadow: 3px 6px 8px -1px #9e9b9a;
+    background-size: cover;
+    margin: 20px auto 0 auto;
+}
+
+.Agendamento-de-excursão h4{
+	text-transform: uppercase;
+	color: #141720;
+	font-family: arial, Sans-Serif;
+	font-weight: bold;
+	padding: 16px 0 0 16px;
+}
+
+.Agendamento-de-excursão p{
+	color: #141720;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 11px;
+	padding-left: 16px;
+	padding-right: 14px;
+}
+
+.acervo-visite-nos{
+	width: 90%;
+    height: 106px;
+    background-color: #8a2c2c;
+    box-shadow: 3px 6px 8px -1px #9e9b9a;
+    background-size: cover;
+    margin: 20px auto 0 auto;
+}
+
+.acervo-visite-nos h4{
+	text-transform: uppercase;
+	color: #141720;
+	font-family: arial, Sans-Serif;
+	font-weight: bold;
+	padding: 16px 0 0 16px;
+}
+
+.acervo-visite-nos p{
+	color: #141720;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 11px;
+	padding-left: 16px;
+	padding-right: 14px;
+}
+
+.endereço{
+	width: 90%;
+    height: 358px;
+    background-color: #8a2c2c;
+    box-shadow: 3px 6px 8px -1px #9e9b9a;
+    background-size: cover;
+    margin: 20px auto 0 auto;
+}
+
+.endereço h4{
+	text-transform: uppercase;
+	color: #141720;
+	font-family: arial, Sans-Serif;
+	font-weight: bold;
+	padding: 16px 0 0 16px;
+}
+
+.endereço p{
+	color: #141720;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 11px;
+	padding-left: 16px;
+	padding-right: 14px;
+}
+
+.maps{
+	width: 90%;
+    height: 250px;
+    margin-top: 14px;
+}
+
+.entre-em-contato{
+	width: 90%;
+    height: 480px;
+    background-color: #8a2c2c;
+    box-shadow: 3px 6px 8px -1px #9e9b9a;
+    background-size: cover;
+    margin: 20px auto 0 auto;
+}
+
+.entre-em-contato h4{
+	text-transform: uppercase;
+	color: #141720;
+	font-family: arial, Sans-Serif;
+	font-weight: bold;
+	padding: 16px 0 0 16px;
+}
+
+.entre-em-contato p{
+	color: #141720;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 11px;
+	padding-left: 16px;
+	padding-right: 14px;
+}
+
+.formulario{
+	display: all;
+
+}
+
+.inputs{
+	width: 20%;
+	margin-left: 16px;
+}
+
+.formulario-interno{
+	width: 80%;
+	margin-left: 0px;
+}
+
+.sec{
+	padding-right: 10px !important;
+}
+
+#doidao{
+	margin-bottom: 15px !important;
+}
+
+
+
+.fundorodapefinal {
+	background-color: #141720;
+	margin-top: -98px;
+    margin-left: -1px;
+    padding: 100px;
+}
+
+.quadrofinal {
+	text-transform: uppercase;
+	color: white;
+	font-family: arial, Sans-Serif;
+	font-weight: bold;
+    margin-left: 20px;
+}
+
+.historia{
+    width: 90%;
+    height: 120px;
+    background: url("../imagens/fast-shop-logo.png");
+    background-position: top center;
+    background-repeat: none;
+    background-size: cover;
+    margin: 20px auto 0 auto;
+}
+
+.historia h4{
+	text-transform: uppercase;
+	color: white;
+	font-family: arial, Sans-Serif;
+	font-weight: bold;
+	padding: 8px 0 0 8px;
+}
+
+.museu{
+    width: 90%;
+    height: 120px;
+    background: url("../imagens/10.png");
+    background-position: top center;
+    background-repeat: none;
+    background-size: cover;
+    margin: 20px auto 0 auto;
+}
+
+.museu h4{
+	text-transform: uppercase;
+	color: white;
+	font-family: arial, Sans-Serif;
+	font-weight: bold;
+	padding: 8px 0 0 8px;
+}
+
+.fast{
+	margin: 20px auto 0 auto;
+}
+
+.patrocinadores {
+	
+}
