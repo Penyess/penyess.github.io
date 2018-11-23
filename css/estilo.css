@@ -122,7 +122,7 @@ p {
 	color: #141720;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
-	font-size: 15px;
+	font-size: 11px;
 	padding-left: 16px;
 	padding-right: 10px;
 }
@@ -696,7 +696,7 @@ p {
 
 .entre-em-contato{
 	width: 90%;
-    height: 480px;
+    height: 465px;
     background-color: #8a2c2c;
     box-shadow: 3px 6px 8px -1px #9e9b9a;
     background-size: cover;
@@ -721,13 +721,39 @@ p {
 }
 
 .formulario{
-	display: all;
-
+	width: 100%;
 }
 
 .inputs{
-	width: 20%;
-	margin-left: 16px;
+	width: 100%;
+}
+
+.formula_do_sucesso {
+	display: flex;
+	justify-content: space-between;
+	margin: 10px 16px;
+}
+.formula_do_sucesso input {
+	width: 76%;
+}
+.formula_do_posicionamento{
+	margin: 10px 16px;
+	display: flex;
+	justify-content: flex-end;
+}
+.formula_do_posicionamento input {
+	border: none;
+    width: 26%;
+    height: 28px;
+    border-radius: 6px;
+    background-color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.paragrafo_formulario{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
 }
 
 .formulario-interno{
@@ -747,9 +773,9 @@ p {
 
 .fundorodapefinal {
 	background-color: #141720;
-	margin-top: -98px;
-    margin-left: -1px;
-    padding: 100px;
+	/*margin-top: -98px;*/
+    /*margin-left: -1px;*/
+    /*padding: 100px;*/
 }
 
 .quadrofinal {
@@ -758,6 +784,10 @@ p {
 	font-family: arial, Sans-Serif;
 	font-weight: bold;
     margin-left: 20px;
+}
+
+.quadrofinal h4{
+	padding-top: 20px;
 }
 
 .historia{
