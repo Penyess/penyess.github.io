@@ -772,18 +772,21 @@ p {
 
 
 .fundorodapefinal {
-	background-color: #141720;
+    background-color: #141720;
+    height: 60%;
 	/*margin-top: -98px;*/
     /*margin-left: -1px;*/
     /*padding: 100px;*/
 }
 
 .quadrofinal {
-	text-transform: uppercase;
-	color: white;
-	font-family: arial, Sans-Serif;
-	font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    font-family: arial, Sans-Serif;
+    font-weight: bold;
     margin-left: 20px;
+    margin-right: 20px;
+    height: 100%;
 }
 
 .quadrofinal h4{
@@ -827,9 +830,43 @@ p {
 }
 
 .fast{
-	margin: 20px auto 0 auto;
+	margin: 0;
+    height: 30px;
 }
 
 .patrocinadores {
-	
+   	width: 100%;
+    height: 56%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.dindin{
+    width: 100%;
+    height: 85px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.dindin_dois{
+    width: 100%;
+    height: 85px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.patrocinadores img {
+	width: 80px;
+    height: 30px;
+}
+
+.footer_text{
+    text-align: justify;
+    line-height: 20px;
+    height: 18%;
 }
