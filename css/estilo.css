@@ -102,24 +102,39 @@ p {
 
 .colecao{
     width: 90%;
-    height: 120px;
+    /*height: 66px;*/
     background: url("../imagens/1.png");
     background-position: top center;
     background-repeat: none;
     background-size: cover;
     margin: 20px auto 0 auto;
+    text-align: center;
+    text-decoration: none;
 }
 
-.colecao h4{
+.fotos_colecao{
+	width: 90%;
+}
+
+
+.titulo_um:focus{
 	text-transform: uppercase;
 	color: #141720;
 	font-family: 'Oswald', sans-serif;
 	font-weight: bold;
-	padding: 16px 0 0 16px;
+	/*padding: 16px 0 0 16px;*/
+	height: 66px;
+
 }
 
-.colecao p{
-	color: #141720;
+.titulo_um button:focus{
+	width: 95%;
+    height: 66px;
+    padding: 0;
+    outline-style: none;
+}
+
+.colecao p{	color: #141720;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
 	font-size: 11px;
@@ -129,7 +144,7 @@ p {
 
 .tomoo{
 	width: 90%;
-    height: 132px;
+    height: 66px;
     background: url("../imagens/2.png");
     background-position: top center;
     background-repeat: none;
@@ -156,7 +171,7 @@ p {
 
 .ryo{
 	width: 90%;
-    height: 132px;
+    height: 66px;
     background: url("../imagens/3.png");
     background-position: top center;
     background-repeat: none;
@@ -183,7 +198,7 @@ p {
 
 .quimonos{
 	width: 90%;
-    height: 132px;
+    height: 66px;
     background: url("../imagens/8.png");
     background-position: top center;
     background-repeat: none;
@@ -227,7 +242,7 @@ p {
 
 .pinturas{
     width: 90%;
-    height: 120px;
+    height: 66px;
     background: url("../imagens/4.png");
     background-position: top center;
     background-repeat: none;
@@ -245,7 +260,7 @@ p {
 
 .livros{
     width: 90%;
-    height: 120px;
+    height: 66px;
     background: url("../imagens/5.png");
     background-position: top center;
     background-repeat: none;
@@ -263,7 +278,7 @@ p {
 
 .objetos{
     width: 90%;
-    height: 120px;
+    height: 66px;
     background: url("../imagens/6.png");
     background-position: top center;
     background-repeat: none;
@@ -281,7 +296,7 @@ p {
 
 .imigracao{
     width: 90%;
-    height: 120px;
+    height: 66px;
     background: url("../imagens/7.png");
     background-position: top center;
     background-repeat: none;
@@ -307,7 +322,7 @@ p {
 
 .visita{
     width: 90%;
-    height: 120px;
+    height: 66px;
     background: url("../imagens/1.png");
     background-position: top center;
     background-repeat: none;
@@ -334,7 +349,7 @@ p {
 
 .anos{
 	width: 90%;
-    height: 132px;
+    height: 66px;
     background: url("../imagens/2.png");
     background-position: top center;
     background-repeat: none;
@@ -361,7 +376,7 @@ p {
 
 .inauguracao{
 	width: 90%;
-    height: 132px;
+    height: 66px;
     background: url("../imagens/3.png");
     background-position: top center;
     background-repeat: none;
@@ -388,7 +403,7 @@ p {
 
 .livro{
 	width: 90%;
-    height: 132px;
+    height: 66px;
     background: url("../imagens/8.png");
     background-position: top center;
     background-repeat: none;
@@ -427,7 +442,7 @@ p {
 
 .historia{
     width: 90%;
-    height: 120px;
+    height: 66px;
     background: url("../imagens/9.png");
     background-position: top center;
     background-repeat: none;
@@ -445,7 +460,7 @@ p {
 
 .museu{
     width: 90%;
-    height: 120px;
+    height: 66px;
     background: url("../imagens/10.png");
     background-position: top center;
     background-repeat: none;
@@ -461,41 +476,7 @@ p {
 	padding: 8px 0 0 8px;
 }
 
-/*.objetos{
-    width: 90%;
-    height: 120px;
-    background: url("../imagens/6.png");
-    background-position: top center;
-    background-repeat: none;
-    background-size: cover;
-    margin: 20px auto 0 auto;
-}
 
-.objetos h4{
-	text-transform: uppercase;
-	color: white;
-	font-family: arial, Sans-Serif;
-	font-weight: bold;
-	padding: 8px 0 0 8px;
-}
-
-.imigracao{
-    width: 90%;
-    height: 120px;
-    background: url("../imagens/7.png");
-    background-position: top center;
-    background-repeat: none;
-    background-size: cover;
-    margin: 20px auto 0 auto;
-}
-
-.imigracao h4{
-	text-transform: uppercase;
-	color: white;
-	font-family: arial, Sans-Serif;
-	font-weight: bold;
-	padding: 8px 0 0 8px;
-}*/
 
 .titulo-visite-nos{
 	text-transform: uppercase;
@@ -584,7 +565,7 @@ p {
 	padding-right: 14px;
 }
 
-.Agendamento-de-visitas{
+.agendamento-de-visitas{
 	width: 90%;
     height: 106px;
     background-color: #8a2c2c;
@@ -593,7 +574,7 @@ p {
     margin: 20px auto 0 auto;
 }
 
-.Agendamento-de-visitas h4{
+.agendamento-de-visitas h4{
 	text-transform: uppercase;
 	color: #141720;
 	font-family: arial, Sans-Serif;
@@ -601,7 +582,7 @@ p {
 	padding: 16px 0 0 16px;
 }
 
-.Agendamento-de-visitas p{
+.agendamento-de-visitas p{
 	color: #141720;
 	font-family: arial;
 	font-weight: bold;
@@ -610,7 +591,7 @@ p {
 	padding-right: 14px;
 }
 
-.Agendamento-de-excursão{
+.agendamento-de-excursão{
 	width: 90%;
     height: 106px;
     background-color: #8a2c2c;
@@ -619,7 +600,7 @@ p {
     margin: 20px auto 0 auto;
 }
 
-.Agendamento-de-excursão h4{
+.agendamento-de-excursão h4{
 	text-transform: uppercase;
 	color: #141720;
 	font-family: arial, Sans-Serif;
@@ -627,7 +608,7 @@ p {
 	padding: 16px 0 0 16px;
 }
 
-.Agendamento-de-excursão p{
+.agendamento-de-excursão p{
 	color: #141720;
 	font-family: arial;
 	font-weight: bold;
@@ -869,4 +850,8 @@ p {
     text-align: justify;
     line-height: 20px;
     height: 18%;
+}
+
+#card-um{
+	height: 66px;
 }
