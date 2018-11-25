@@ -27,9 +27,9 @@ p {
 }
 
 .navegacao{
-	width: 30%;
+	width: 12%;
     display: flex;
-    justify-content: space-around;
+   /* justify-content: space-around;*/
     align-items: center;
 }
 
