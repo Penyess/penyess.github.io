@@ -475,7 +475,7 @@ p {
     background-position: top center;
     background-repeat: none;
     background-size: cover;
-    /*margin: 20px auto 0 auto;*/
+    margin: 8px auto 0 auto;
 }
 
 .historia h4{
@@ -802,32 +802,14 @@ p {
 	padding-top: 20px;
 }
 
-.historia{
-    width: 90%;
-    height: 120px;
-    background: url("../imagens/fast-shop-logo.png");
-    background-position: top center;
-    background-repeat: none;
-    background-size: cover;
-    margin: 20px auto 0 auto;
-}
-
-.historia h4{
-	text-transform: uppercase;
-	color: white;
-	font-family: arial, Sans-Serif;
-	font-weight: bold;
-	padding: 8px 0 0 8px;
-}
-
 .museu{
-    width: 90%;
-    height: 120px;
+    width: 100%;
+    height: 66px;
     background: url("../imagens/10.png");
     background-position: top center;
     background-repeat: none;
     background-size: cover;
-    margin: 20px auto 0 auto;
+    margin: 8px auto 0 auto;
 }
 
 .museu h4{
