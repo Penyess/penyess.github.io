@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta name="viewport" content="width=device-width; initial-scale=1.0;  maximum-scale=1.0; user-scalable=0;">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,  maximum-scale=1.0, user-scalable=0">
 	<title>Museu</title>
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/estilo.css">
@@ -10,13 +10,22 @@
 </head>
 <body>
 
+	<div class="box-menu">
+		<p>Exposições</p>
+		<p>Acervo</p>
+		<p>Novidades</p>
+		<p>História</p>
+		<p>Visite-nos</p>
+	</div>
+
+
 	<!-- barra de navegação -->
 	<header>
 		<div class="cabecalio-mobile"> 
 			<div> <img class="logo" src="imagens/logo_museu.png"> </div>
 			<div class="navegacao">
 				<!-- <img src="imagens/lupa.png"> -->
-				<div>
+				<div id="toggle_menu" class="menu">
 					<div class="menu-barra"></div>
 					<div class="menu-barra"></div>
 					<div class="menu-barra"></div>
@@ -553,7 +562,8 @@
 
 	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+	<script type="text/javascript" src="js/site.js"></script>
+
 
 </body>
 </html>
