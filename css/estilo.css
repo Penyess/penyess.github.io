@@ -101,15 +101,22 @@ p {
 }
 
 .colecao{
-    width: 90%;
-    /*height: 66px;*/
+    width: 100%;
+    height: 66px;
     background: url("../imagens/1.png");
     background-position: top center;
     background-repeat: none;
     background-size: cover;
-    margin: 20px auto 0 auto;
+    /*margin: 20px auto 0 auto;*/
     text-align: center;
     text-decoration: none;
+   
+}
+
+.ajustes_dimensoes{
+	display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .fotos_colecao{
@@ -143,13 +150,13 @@ p {
 }
 
 .tomoo{
-	width: 90%;
+	width: 100%;
     height: 66px;
     background: url("../imagens/2.png");
     background-position: top center;
     background-repeat: none;
     background-size: cover;
-    margin: 20px auto 0 auto;
+    /*margin: 20px auto 0 auto;*/
 }
 
 .tomoo h4{
@@ -170,13 +177,13 @@ p {
 }
 
 .ryo{
-	width: 90%;
+	width: 100%;
     height: 66px;
     background: url("../imagens/3.png");
     background-position: top center;
     background-repeat: none;
     background-size: cover;
-    margin: 20px auto 0 auto;
+    /*margin: 20px auto 0 auto;*/
 }
 
 .ryo h4{
@@ -197,13 +204,13 @@ p {
 }
 
 .quimonos{
-	width: 90%;
+	width: 100%;
     height: 66px;
     background: url("../imagens/8.png");
     background-position: top center;
     background-repeat: none;
     background-size: cover;
-    margin: 20px auto 0 auto;
+    /*margin: 20px auto 0 auto;*/
 }
 
 .quimonos h4{
@@ -224,7 +231,20 @@ p {
 }
 
 .fundo-acervo{
-	background-color: #141720;
+	background-color: #141720 !important;
+}
+
+.borda_acervo{
+	border-color: #141720 !important;
+}
+
+.respiro_interno_acervo{
+	margin-bottom: 10px !important;
+}
+
+.respiro_acervo{
+	margin-bottom: 0 !important;
+	padding-bottom: 20px;
 }
 
 .respiro{
@@ -238,16 +258,20 @@ p {
 	font-family: arial, Sans-Serif;
 	font-weight: bold;
     margin-left: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 .pinturas{
-    width: 90%;
+    width: 100%;
     height: 66px;
     background: url("../imagens/4.png");
     background-position: top center;
     background-repeat: none;
     background-size: cover;
-    margin: 20px auto 0 auto;
+    /*margin: 20px auto 0 auto;*/
 }
 
 .pinturas h4{
@@ -259,13 +283,13 @@ p {
 }
 
 .livros{
-    width: 90%;
+    width: 100%;
     height: 66px;
     background: url("../imagens/5.png");
     background-position: top center;
     background-repeat: none;
     background-size: cover;
-    margin: 20px auto 0 auto;
+    /*margin: 20px auto 0 auto;*/
 }
 
 .livros h4{
@@ -277,13 +301,13 @@ p {
 }
 
 .objetos{
-    width: 90%;
+    width: 100%;
     height: 66px;
     background: url("../imagens/6.png");
     background-position: top center;
     background-repeat: none;
     background-size: cover;
-    margin: 20px auto 0 auto;
+    /*margin: 20px auto 0 auto;*/
 }
 
 .objetos h4{
@@ -295,13 +319,13 @@ p {
 }
 
 .imigracao{
-    width: 90%;
+    width: 100%;
     height: 66px;
     background: url("../imagens/7.png");
     background-position: top center;
     background-repeat: none;
     background-size: cover;
-    margin: 20px auto 0 auto;
+    /*margin: 20px auto 0 auto;*/
 }
 
 .imigracao h4{
@@ -321,13 +345,13 @@ p {
 }
 
 .visita{
-    width: 90%;
+    width: 100%;
     height: 66px;
     background: url("../imagens/1.png");
     background-position: top center;
     background-repeat: none;
     background-size: cover;
-    margin: 20px auto 0 auto;
+    /*margin: 20px auto 0 auto;*/
 }
 
 .visita h4{
@@ -348,13 +372,13 @@ p {
 }
 
 .anos{
-	width: 90%;
+	width: 100%;
     height: 66px;
     background: url("../imagens/2.png");
     background-position: top center;
     background-repeat: none;
     background-size: cover;
-    margin: 20px auto 0 auto;
+    /*margin: 20px auto 0 auto;*/
 }
 
 .anos h4{
@@ -375,13 +399,13 @@ p {
 }
 
 .inauguracao{
-	width: 90%;
+	width: 100%;
     height: 66px;
     background: url("../imagens/3.png");
     background-position: top center;
     background-repeat: none;
     background-size: cover;
-    margin: 20px auto 0 auto;
+    /*margin: 20px auto 0 auto;*/
 }
 
 .inauguracao h4{
@@ -402,13 +426,13 @@ p {
 }
 
 .livro{
-	width: 90%;
+	width: 100%;
     height: 66px;
     background: url("../imagens/8.png");
     background-position: top center;
     background-repeat: none;
     background-size: cover;
-    margin: 20px auto 0 auto;
+    /*margin: 20px auto 0 auto;*/
 }
 
 .livro h4{
@@ -441,13 +465,13 @@ p {
 }
 
 .historia{
-    width: 90%;
+    width: 100%;
     height: 66px;
     background: url("../imagens/9.png");
     background-position: top center;
     background-repeat: none;
     background-size: cover;
-    margin: 20px auto 0 auto;
+    /*margin: 20px auto 0 auto;*/
 }
 
 .historia h4{
@@ -459,13 +483,13 @@ p {
 }
 
 .museu{
-    width: 90%;
+    width: 100%;
     height: 66px;
     background: url("../imagens/10.png");
     background-position: top center;
     background-repeat: none;
     background-size: cover;
-    margin: 20px auto 0 auto;
+    /*margin: 20px auto 0 auto;*/
 }
 
 .museu h4{
@@ -854,4 +878,8 @@ p {
 
 #card-um{
 	height: 66px;
+}
+
+.titulo_um a:link, .titulo_um a:visited{
+	text-decoration: none;
 }
