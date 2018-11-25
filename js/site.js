@@ -13,7 +13,7 @@
 
 				evt.preventDefault();
 				$("html, body").stop().animate({
-					scrollTop: $( $(this).attr("data-section") ).offset().top - 80 + 'px'
+					scrollTop: $( $(this).attr("data-section") ).offset().top - 84 + 'px'
 				}, 1000);
 
 				$(".box-menu").toggleClass("ativo");
@@ -26,7 +26,7 @@
 
 				evt.preventDefault();
 				$("html, body").stop().animate({
-					scrollTop: $( $(this).attr("data-section") ).offset().top - 80 + 'px'
+					scrollTop: $( $(this).attr("data-section") ).offset().top - 84 + 'px'
 				}, 1000);
 
 			});

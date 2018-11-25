@@ -931,3 +931,7 @@ p {
 .titulo_um a:link, .titulo_um a:visited{
 	text-decoration: none;
 }
+
+.forcar_altura{
+	height: 250px;
+}
