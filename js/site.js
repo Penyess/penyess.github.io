@@ -5,6 +5,7 @@
 	(function ($, window, document){
 		$(document).ready(function(){
 
+			window.scrollTo(0,0);
 			$("#toggle_menu").click( function (){
 				$(".box-menu").toggleClass("ativo");
 			})

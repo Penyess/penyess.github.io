@@ -863,6 +863,11 @@ p {
 .quadrofinal h4{
 	padding-top: 20px;
 }
+@media(min-width: 768px){
+	.quadrofinal h4{
+		padding-left: 30px;
+	}
+}
 
 .museu{
     width: 100%;
@@ -922,6 +927,11 @@ p {
     text-align: justify;
     line-height: 20px;
     height: 18%;
+}
+@media(min-width: 768px){
+	.footer_text{
+		padding: 0 30px;
+	}
 }
 
 #card-um{
