@@ -7,7 +7,7 @@
 
 			window.scrollTo(0,0);
 
-			$(".primeiro-slider").slick({
+			$(".primeiro-slider, .segundo-slider, .terceiro-slider, .quarto-slider, .quinto-slider, .sexto-slider, .setimo-slider, .oitavo-slider, .nono-slider, .decimo-slider, .decimo-primeiro-slider, .decimo-segundo-slider, .decimo-terceiro-slider, .decimo-quarto-slider").slick({
 			  dots: true,
 			  arrows: false,
 			  autoplay: true,
