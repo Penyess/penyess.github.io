@@ -985,3 +985,8 @@ p {
 .forcar_altura{
 	height: 250px;
 }
+
+#expo{
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
