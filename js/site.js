@@ -6,6 +6,17 @@
 		$(document).ready(function(){
 
 			window.scrollTo(0,0);
+
+			$(".primeiro-slider").slick({
+			  dots: true,
+			  arrows: false,
+			  autoplay: true,
+			  infinite: true,
+			  speed: 500,
+			  fade: true,
+			  cssEase: 'linear'
+			});
+
 			$("#toggle_menu").click( function (){
 				$(".box-menu").toggleClass("ativo");
 			})
@@ -31,6 +42,14 @@
 				}, 1000);
 
 			});
+
+
+
+			
+
+
+
+
 		})
 	})
 );

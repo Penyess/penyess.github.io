@@ -8,13 +8,26 @@ header {
 	height: 16%;
 }
 
+@media (min-width: 768px){
+	header{
+		height: 22.3%;
+	}
+}
+
 p {
 	margin: 0 !important;
 }
 
+.legibilidade {
+	padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 20px !important;
+    padding-left: 0px;
+}
+
 .cabecalio-mobile {
 	width: 100%;
-     height: 82px; 
+    height: 82px; 
     background-color: white;
     display: flex;
     justify-content: space-between;
@@ -31,7 +44,6 @@ p {
 .navegacao{
 	width: 12%;
     display: flex;
-   /* justify-content: space-around;*/
     align-items: center;
 }
 @media (min-width: 768px){
@@ -85,7 +97,6 @@ p {
 .menu-desktop p{
     font-weight: bold;
     font-size: 18px;
-    /*text-transform: uppercase;*/
     cursor: pointer;
 }
 
@@ -160,6 +171,7 @@ p {
 	font-family: 'Oswald', sans-serif;
 	font-weight: bold;
     margin-left: 20px;
+    font-size: 2.5em;
 }
 
 .colecao{
@@ -169,10 +181,14 @@ p {
     background-position: top center;
     background-repeat: none;
     background-size: cover;
-    /*margin: 20px auto 0 auto;*/
     text-align: center;
     text-decoration: none;
-   
+  
+}
+
+.colecao h4 {
+    color: #141720;
+    text-transform: uppercase;
 }
 
 .ajustes_dimensoes{
@@ -191,7 +207,6 @@ p {
 	color: #141720;
 	font-family: 'Oswald', sans-serif;
 	font-weight: bold;
-	/*padding: 16px 0 0 16px;*/
 	height: 66px;
 
 }
@@ -224,14 +239,14 @@ p {
 .tomoo h4{
 	text-transform: uppercase;
 	color: #141720;
-	font-family: arial, Sans-Serif;
+	font-family: 'Oswald', sans-serif;
 	font-weight: bold;
 	padding: 16px 0 0 16px;
 }
 
 .tomoo p{
 	color: #141720;
-	font-family: arial;
+	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
 	font-size: 11px;
 	padding-left: 16px;
@@ -245,20 +260,19 @@ p {
     background-position: top center;
     background-repeat: none;
     background-size: cover;
-    /*margin: 20px auto 0 auto;*/
 }
 
 .ryo h4{
 	text-transform: uppercase;
 	color: #141720;
-	font-family: arial, Sans-Serif;
+	font-family: 'Oswald', sans-serif;
 	font-weight: bold;
 	padding: 16px 0 0 16px;
 }
 
 .ryo p{
 	color: #141720;
-	font-family: arial;
+	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
 	font-size: 11px;
 	padding-left: 16px;
@@ -272,20 +286,19 @@ p {
     background-position: top center;
     background-repeat: none;
     background-size: cover;
-    /*margin: 20px auto 0 auto;*/
 }
 
 .quimonos h4{
 	text-transform: uppercase;
 	color: #141720;
-	font-family: arial, Sans-Serif;
+	font-family: 'Oswald', sans-serif;
 	font-weight: bold;
 	padding: 16px 0 0 16px;
 }
 
 .quimonos p{
 	color: #141720;
-	font-family: arial;
+	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
 	font-size: 11px;
 	padding-left: 16px;
@@ -311,13 +324,12 @@ p {
 
 .respiro{
 	height: 50px;
-    /*display: flex;*/
 }
 
 .titulo-acervo{
 	text-transform: uppercase;
 	color: white;
-	font-family: arial, Sans-Serif;
+	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
     margin-left: 20px;
     margin-top: 0;
@@ -333,13 +345,12 @@ p {
     background-position: top center;
     background-repeat: none;
     background-size: cover;
-    /*margin: 20px auto 0 auto;*/
 }
 
 .pinturas h4{
 	text-transform: uppercase;
 	color: white;
-	font-family: arial, Sans-Serif;
+	font-family: 'Oswald', sans-serif;
 	font-weight: bold;
 	padding: 8px 0 0 8px;
 }
@@ -351,13 +362,12 @@ p {
     background-position: top center;
     background-repeat: none;
     background-size: cover;
-    /*margin: 20px auto 0 auto;*/
 }
 
 .livros h4{
 	text-transform: uppercase;
 	color: white;
-	font-family: arial, Sans-Serif;
+	font-family: 'Oswald', sans-serif;
 	font-weight: bold;
 	padding: 8px 0 0 8px;
 }
@@ -369,13 +379,12 @@ p {
     background-position: top center;
     background-repeat: none;
     background-size: cover;
-    /*margin: 20px auto 0 auto;*/
 }
 
 .objetos h4{
 	text-transform: uppercase;
 	color: white;
-	font-family: arial, Sans-Serif;
+	font-family: 'Oswald', sans-serif;
 	font-weight: bold;
 	padding: 8px 0 0 8px;
 }
@@ -387,13 +396,12 @@ p {
     background-position: top center;
     background-repeat: none;
     background-size: cover;
-    /*margin: 20px auto 0 auto;*/
 }
 
 .imigracao h4{
 	text-transform: uppercase;
 	color: white;
-	font-family: arial, Sans-Serif;
+	font-family: 'Oswald', sans-serif;
 	font-weight: bold;
 	padding: 8px 0 0 8px;
 }
@@ -401,7 +409,7 @@ p {
 .titulo-novidades{
 	text-transform: uppercase;
 	color: red;
-	font-family: arial, Sans-Serif;
+	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
     margin-left: 20px;
 }
@@ -413,20 +421,19 @@ p {
     background-position: top center;
     background-repeat: none;
     background-size: cover;
-    /*margin: 20px auto 0 auto;*/
 }
 
 .visita h4{
 	text-transform: uppercase;
 	color: #141720;
-	font-family: arial, Sans-Serif;
+	font-family: 'Oswald', sans-serif;
 	font-weight: bold;
 	padding: 16px 0 0 16px;
 }
 
 .visita p{
 	color: #141720;
-	font-family: arial;
+	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
 	font-size: 11px;
 	padding-left: 16px;
@@ -440,20 +447,19 @@ p {
     background-position: top center;
     background-repeat: none;
     background-size: cover;
-    /*margin: 20px auto 0 auto;*/
 }
 
 .anos h4{
 	text-transform: uppercase;
 	color: #141720;
-	font-family: arial, Sans-Serif;
+	font-family: 'Oswald', sans-serif;
 	font-weight: bold;
 	padding: 16px 0 0 16px;
 }
 
 .anos p{
 	color: #141720;
-	font-family: arial;
+	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
 	font-size: 11px;
 	padding-left: 16px;
@@ -467,20 +473,19 @@ p {
     background-position: top center;
     background-repeat: none;
     background-size: cover;
-    /*margin: 20px auto 0 auto;*/
 }
 
 .inauguracao h4{
 	text-transform: uppercase;
 	color: #141720;
-	font-family: arial, Sans-Serif;
+	font-family: 'Oswald', sans-serif;
 	font-weight: bold;
 	padding: 16px 0 0 16px;
 }
 
 .inauguracao p{
 	color: #141720;
-	font-family: arial;
+	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
 	font-size: 11px;
 	padding-left: 16px;
@@ -494,20 +499,19 @@ p {
     background-position: top center;
     background-repeat: none;
     background-size: cover;
-    /*margin: 20px auto 0 auto;*/
 }
 
 .livro h4{
 	text-transform: uppercase;
 	color: #141720;
-	font-family: arial, Sans-Serif;
+	font-family: 'Oswald', sans-serif;
 	font-weight: bold;
 	padding: 16px 0 0 16px;
 }
 
 .livro p{
 	color: #141720;
-	font-family: arial;
+	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
 	font-size: 11px;
 	padding-left: 16px;
@@ -521,7 +525,7 @@ p {
 .titulo-historia{
 	text-transform: uppercase;
 	color: white;
-	font-family: arial, Sans-Serif;
+	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
     margin-left: 20px;
 }
@@ -539,7 +543,7 @@ p {
 .historia h4{
 	text-transform: uppercase;
 	color: white;
-	font-family: arial, Sans-Serif;
+	font-family: 'Oswald', sans-serif;
 	font-weight: bold;
 	padding: 8px 0 0 8px;
 }
@@ -555,30 +559,27 @@ p {
     background-position: top center;
     background-repeat: none;
     background-size: cover;
-    /*margin: 20px auto 0 auto;*/
 }
 
 .museu h4{
 	text-transform: uppercase;
 	color: white;
-	font-family: arial, Sans-Serif;
+	font-family: 'Oswald', sans-serif;
 	font-weight: bold;
 	padding: 8px 0 0 8px;
 }
 
-
-
 .titulo-visite-nos{
 	text-transform: uppercase;
 	color: red;
-	font-family: arial, Sans-Serif;
+	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
     margin-left: 20px;
 }
 
 .horario{
     width: 90%;
-    height: 100px;
+    height: 134px;
     background-color: #8a2c2c;
     box-shadow: 3px 6px 8px -1px #9e9b9a;
     background-size: cover;
@@ -588,102 +589,125 @@ p {
 .horario h4{
 	text-transform: uppercase;
 	color: #141720;
-	font-family: arial, Sans-Serif;
+	font-family: 'Oswald', sans-serif;
 	font-weight: bold;
 	padding: 16px 0 0 16px;
 }
 
 .horario p{
 	color: #141720;
-	font-family: arial;
+	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
 	font-size: 11px;
 	padding-left: 16px;
 	padding-right: 10px;
 	margin: 0;
+	font-size: 18px;
 }
 
 .ingressos{
 	width: 90%;
-    height: 100px;
+    height: 240px;
     background-color: #8a2c2c;
     box-shadow: 3px 6px 8px -1px #9e9b9a;
     background-size: cover;
     margin: 20px auto 0 auto;
 }
 
+@media(min-width: 768px){
+	.ingressos{
+		height: 156px;
+	}
+}
+
 .ingressos h4{
 	text-transform: uppercase;
 	color: #141720;
-	font-family: arial, Sans-Serif;
+	font-family: 'Oswald', sans-serif;
 	font-weight: bold;
 	padding: 16px 0 0 16px;
 }
 
 .ingressos p{
 	color: #141720;
-	font-family: arial;
+	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
 	font-size: 11px;
 	padding-left: 16px;
 	padding-right: 14px;
+	font-size: 18px;
 }
 
 .audioguia{
 	width: 90%;
-    height: 150px;
+    height: 260px;
     background-color: #8a2c2c;
     box-shadow: 3px 6px 8px -1px #9e9b9a;
     background-size: cover;
     margin: 20px auto 0 auto;
+}
+
+@media(min-width: 768px){
+	.audioguia{
+		height: 186px;
+	}
 }
 
 .audioguia h4{
 	text-transform: uppercase;
 	color: #141720;
-	font-family: arial, Sans-Serif;
+	font-family: 'Oswald', sans-serif;
 	font-weight: bold;
 	padding: 16px 0 0 16px;
+	font-size: 20px !important;
 }
 
 .audioguia p{
 	color: #141720;
-	font-family: arial;
+	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
-	font-size: 11px;
+	font-size: 15px;
 	padding-left: 16px;
 	padding-right: 14px;
+	font-size: 18px;
 }
 
 .agendamento-de-visitas{
 	width: 90%;
-    height: 106px;
+    height: 154px;
     background-color: #8a2c2c;
     box-shadow: 3px 6px 8px -1px #9e9b9a;
     background-size: cover;
     margin: 20px auto 0 auto;
 }
 
+@media(min-width: 768px){
+	.agendamento-de-visitas{
+		height: 116px;
+	}
+}
+
 .agendamento-de-visitas h4{
 	text-transform: uppercase;
 	color: #141720;
-	font-family: arial, Sans-Serif;
+	font-family: 'Oswald', sans-serif;
 	font-weight: bold;
 	padding: 16px 0 0 16px;
 }
 
 .agendamento-de-visitas p{
 	color: #141720;
-	font-family: arial;
+	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
 	font-size: 11px;
 	padding-left: 16px;
 	padding-right: 14px;
+	font-size: 18px;
 }
 
 .agendamento-de-excursão{
 	width: 90%;
-    height: 106px;
+    height: 130px;
     background-color: #8a2c2c;
     box-shadow: 3px 6px 8px -1px #9e9b9a;
     background-size: cover;
@@ -693,49 +717,56 @@ p {
 .agendamento-de-excursão h4{
 	text-transform: uppercase;
 	color: #141720;
-	font-family: arial, Sans-Serif;
+	font-family: 'Oswald', sans-serif;
 	font-weight: bold;
 	padding: 16px 0 0 16px;
 }
 
 .agendamento-de-excursão p{
 	color: #141720;
-	font-family: arial;
+	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
 	font-size: 11px;
 	padding-left: 16px;
 	padding-right: 14px;
+	font-size: 18px;
 }
 
 .acervo-visite-nos{
 	width: 90%;
-    height: 106px;
+    height: 229px;
     background-color: #8a2c2c;
     box-shadow: 3px 6px 8px -1px #9e9b9a;
     background-size: cover;
     margin: 20px auto 0 auto;
 }
+@media(min-width: 767px){
+	.acervo-visite-nos{
+		height: 118px;
+	}
+}
 
 .acervo-visite-nos h4{
 	text-transform: uppercase;
 	color: #141720;
-	font-family: arial, Sans-Serif;
+	font-family: 'Oswald', sans-serif;
 	font-weight: bold;
 	padding: 16px 0 0 16px;
 }
 
 .acervo-visite-nos p{
 	color: #141720;
-	font-family: arial;
+	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
 	font-size: 11px;
 	padding-left: 16px;
 	padding-right: 14px;
+	font-size: 20px;
 }
 
 .endereço{
 	width: 90%;
-    height: 358px;
+    height: 404px;
     background-color: #8a2c2c;
     box-shadow: 3px 6px 8px -1px #9e9b9a;
     background-size: cover;
@@ -745,18 +776,19 @@ p {
 .endereço h4{
 	text-transform: uppercase;
 	color: #141720;
-	font-family: arial, Sans-Serif;
+	font-family: 'Oswald', sans-serif;
 	font-weight: bold;
 	padding: 16px 0 0 16px;
 }
 
 .endereço p{
 	color: #141720;
-	font-family: arial;
+	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
 	font-size: 11px;
 	padding-left: 16px;
 	padding-right: 14px;
+	font-size: 18px;
 }
 
 .maps{
@@ -767,28 +799,35 @@ p {
 
 .entre-em-contato{
 	width: 90%;
-    height: 480px;
+    height: 566px;
     background-color: #8a2c2c;
     box-shadow: 3px 6px 8px -1px #9e9b9a;
     background-size: cover;
     margin: 20px auto 0 auto;
 }
 
+@media(min-width: 768px){
+	.entre-em-contato{
+		height: 510px;
+	}
+}
+
 .entre-em-contato h4{
 	text-transform: uppercase;
 	color: #141720;
-	font-family: arial, Sans-Serif;
+	font-family: 'Oswald', sans-serif;
 	font-weight: bold;
 	padding: 16px 0 0 16px;
 }
 
 .entre-em-contato p{
 	color: #141720;
-	font-family: arial;
+	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
 	font-size: 11px;
 	padding-left: 16px;
 	padding-right: 14px;
+	font-size: 18px;
 }
 
 .formulario{
@@ -805,7 +844,7 @@ p {
 	margin: 10px 16px;
 }
 .formula_do_sucesso input {
-	width: 76%;
+	width: 70%;
 }
 .formula_do_posicionamento{
 	margin: 10px 16px;
@@ -845,15 +884,12 @@ p {
 .fundorodapefinal {
     background-color: #141720;
     height: 60%;
-	/*margin-top: -98px;*/
-    /*margin-left: -1px;*/
-    /*padding: 100px;*/
 }
 
 .quadrofinal {
     text-transform: uppercase;
     color: white;
-    font-family: arial, Sans-Serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
     margin-left: 20px;
     margin-right: 20px;
@@ -862,6 +898,7 @@ p {
 
 .quadrofinal h4{
 	padding-top: 20px;
+	font-family: 'Oswald', sans-serif;
 }
 @media(min-width: 768px){
 	.quadrofinal h4{
@@ -882,7 +919,7 @@ p {
 .museu h4{
 	text-transform: uppercase;
 	color: white;
-	font-family: arial, Sans-Serif;
+	font-family: 'Oswald', sans-serif;
 	font-weight: bold;
 	padding: 8px 0 0 8px;
 }
@@ -940,6 +977,8 @@ p {
 
 .titulo_um a:link, .titulo_um a:visited{
 	text-decoration: none;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.2em;
 }
 
 .forcar_altura{
