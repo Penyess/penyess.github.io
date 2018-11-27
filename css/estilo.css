@@ -76,6 +76,7 @@ p {
 .box-menu p{
 	color: white;
 	text-transform: uppercase;
+    font-size: 20px;
 }
 
 .ativo{
